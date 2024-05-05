@@ -97,16 +97,16 @@ the data is train_data.csv. This data currently includes 122 columns and
 
 # 🗂️ Data Dictionary
 
-| Rows |  | Description |
+| Rows || Description |
 |-----------------||-----------------|
-| SK_ID_CURR      | | ID of loan in our sample |
+| SK_ID_CURR      || ID of loan in our sample |
 |  TARGET || Target variable (1 - client with payment difficulties: he/she had late payment more than X days on at least one of the first Y installments of the loan in our sample, 0 - all other cases) |
 | NAME_CONTRACT_TYPE || Identification if loan is cash or revolving |
 | CODE_GENDER || Gender of the client |
 | FLAG_OWN_CAR || Flag if the client owns a car |
 | FLAG_OWN_REALTY || Flag if client owns a house or flat |
 | CNT_CHILDREN || Number of children the client has |
-| AMT_INCOME_TOTAL | | Income of the client |
+| AMT_INCOME_TOTAL || Income of the client |
 | AMT_CREDIT || Credit amount of the loan |
 | AMT_ANNUITY || Loan annuity |
 | AMT_GOODS_PRICE || For consumer loans it is the price of the goods for which the loan is given |
