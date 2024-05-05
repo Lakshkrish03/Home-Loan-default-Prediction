@@ -92,13 +92,13 @@ has been included at the end of this section. This dataset is highly imbalanced 
 includes a lot of features that make the approach of the project more challenging.
 Please find the following reference sources for my datasets: 
 Main Data set: (https://www.kaggle.com/competitions/ai511-homeloan-2022/data?select=train_data.csv)(kaggle.com) – The version of 
-the data is train_with_new_features.csv. This data currently includes 122 columns and 
+the data is train_data.csv. This data currently includes 122 columns and 
 184506 rows.  
 
 # 🗂️ Data Dictionary
 
-| Column 1 Header | Column 2 Header | Column 3 Header |
-|-----------------|-----------------|-----------------|
-| Row 1, Col 1    | Row 1, Col 2    | Row 1, Col 3    |
-| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
-| Row 3, Col 1    | Row 3, Col 2    | Row 3, Col 3    |
+| Rows | Description |
+|-----------------|-----------------|
+| Row 1, Col 1    | Row 1, Col 2    | 
+| Row 2, Col 1    | Row 2, Col 2    | 
+| Row 3, Col 1    | Row 3, Col 2    | 
