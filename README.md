@@ -4,7 +4,7 @@
 
 ![Alt Text](https://github.com/Lakshkrish03/House-Loan-default-Prediction/blob/main/Home_Loan_Defaults_pic.jpg?raw=true)
 
-##  🏠 Problem Area
+#  🏠 Problem Area
 
 Home loan default prediction involves the task of assessing the 
 likelihood that a borrower will default on their mortgage loan based on various factors 
@@ -22,7 +22,7 @@ predictive models that can assist lenders in making more informed and prudent le
 decisions, ultimately reducing the incidence of loan defaults and improving overall 
 financial stability in the housing finance market.
 
-## 👥 Users 
+# 👥 Users 
 
 The users of home loan default prediction models primarily include financial 
 institutions, banks, mortgage lenders, and credit unions involved in the lending process. 
@@ -40,7 +40,7 @@ the users of home loan default prediction models are integral to the lending eco
 shaping the accessibility and affordability of homeownership while ensuring the financial 
 stability of lending institutions.
 
-## 💡 Big Idea 
+# 💡 Big Idea 
 
 The concept of home loan default prediction involves using advanced 
 machine learning algorithms to accurately predict the likelihood of borrowers defaulting 
@@ -65,7 +65,7 @@ conditions may change over time. Additionally, machine learning models can
 incorporate a wide range of features and data sources, including unstructured data such 
 as text and images, further enhancing their predictive capabilities.
 
-## 🌍 Impact 
+# 🌍 Impact 
 
 Home loan default prediction models have a multifaceted impact, spanning 
 the financial industry, the broader economy, and society. They enhance risk 
@@ -77,7 +77,7 @@ foster confidence and trust in the lending industry, promote consumer protection
 financial inclusion, and reduce systemic risks, contributing to economic stability and 
 growth.
 
-## 📊 Data 
+# 📊 Data 
 
 The main challenge in working with home loan default prediction datasets 
 lies in ensuring data quality, completeness, and consistency. Data preprocessing 
@@ -94,3 +94,11 @@ Please find the following reference sources for my datasets:
 Main Data set: (https://www.kaggle.com/competitions/ai511-homeloan-2022/data?select=train_data.csv)(kaggle.com) – The version of 
 the data is train_with_new_features.csv. This data currently includes 122 columns and 
 184506 rows.  
+
+# 🗂️ Data Dictionary
+
+| Column 1 Header | Column 2 Header | Column 3 Header |
+|-----------------|-----------------|-----------------|
+| Row 1, Col 1    | Row 1, Col 2    | Row 1, Col 3    |
+| Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+| Row 3, Col 1    | Row 3, Col 2    | Row 3, Col 3    |
