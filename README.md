@@ -30,7 +30,7 @@ United Kingdom: The UK housing market has also faced challenges with home loan d
 
 Canada: Canada runs the highest risk of mortgage defaults among advanced economies, the International Monetary Fund warns, while other reports show Canadians are increasingly struggling with debt. According to Financial Post, Posthaste: More borrowers struggle as IMF warns Canada at highest risk of mortgage defaults (source : https://financialpost.com/news/imf-warns-canada-highest-risk-mortgage-defaults)
 
-Using our Data, which i believe has been created mainly for the purpose of creating more effective Machine Learning Models, Lets look at the Problem Area, Users, Big Idea and Impact that my project will help address them in detail and also help us understand how these models can fit in to help these issues effectively. 
+Using our Data, which i believe is not based on any real time figures but can be used mainly for the purpose of creating more effective Machine Learning Models. Now, Lets look at the Problem Area, Users, Big Idea and Impact that my project will help address in detail and also help us understand how these models can fit in to help the Users effectively. 
 
 #  🏠 Problem Area
 
