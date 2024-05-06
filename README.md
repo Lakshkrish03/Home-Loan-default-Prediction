@@ -18,7 +18,7 @@ Why Predictive Models Matter:
 
 Now, imagine if there was a way to predict these bumps in the road before they even happen. That's where predictive models come in. They're like financial forecasters, analyzing loads of data to spot the warning signs of potential loan defaults. By looking at things like your income, credit history, and even broader economic trends, these models can give lenders a heads-up when someone might be at risk of falling behind on their payments.
 
-## 📉 Some Real-World facts on Home Loan defaults around the world:
+### 📉 Some Real-World facts on Home Loan defaults around the world:
 
 Here are some real-world facts on home loan defaults around the world, along with references:
 
