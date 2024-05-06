@@ -23,8 +23,11 @@ Now, imagine if there was a way to predict these bumps in the road before they e
 Here are some real-world facts on home loan defaults around the world, along with references:
 
 United States: During the 2008 financial crisis, the U.S. experienced a significant increase in home loan defaults, leading to widespread foreclosures and economic turmoil. According to the Federal Reserve Bank of St. Louis, the mortgage delinquency rate in the U.S. peaked at 11.5% in 2010, affecting millions of homeowners (source : https://www.stlouisfed.org/on-the-economy/2021/may/mortgage-distress-great-recession).
+
 Australia: In recent years, Australia has seen a rise in mortgage stress, with a significant portion of households struggling to meet their home loan repayments. According to the Roy Morgan Mortgage Stress research, around 30.3% of Australian households were experiencing mortgage stress in in the later half of 2023 (source : https://www.roymorgan.com/findings/mortgage-stress-risk-october-2023).
+
 United Kingdom: The UK housing market has also faced challenges with home loan defaults. According to data from UK Finance, mortgage arrears and possessions remained low in 2020 due to government support measures during the COVID-19 pandemic. However, concerns about future defaults persist as support measures are phased out (source : https://www.ukfinance.org.uk/sites/default/files/uploads/Data%20%28XLS%20and%20PDF%29/Household-Finance-Review-2020-Q4-FINAL.pdf).
+
 Canada: Canada runs the highest risk of mortgage defaults among advanced economies, the International Monetary Fund warns, while other reports show Canadians are increasingly struggling with debt. According to Financial Post, Posthaste: More borrowers struggle as IMF warns Canada at highest risk of mortgage defaults (source : https://financialpost.com/news/imf-warns-canada-highest-risk-mortgage-defaults)
 
 Using our Data, which i believe has been created mainly for the purpose of creating more effective Machine Learning Models, Lets look at the Problem Area, Users, Big Idea and Impact that my project will help address them in detail and also help us understand how these models can fit in to help these issues effectively. 
