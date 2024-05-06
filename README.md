@@ -97,6 +97,9 @@ the data is train_data.csv. This data currently includes 122 columns and
 
 # 🗂️ Data Dictionary
 
+The Raw Dataset that will be used for my modeling has 122 columns and 184506 rows. The following table describes what each and every column in the Dataset is. 
+The Table is outlined as follows:
+
 | Column Name                   | Description                                                                                                     |
 |-------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | SK_ID_CURR                    | ID of loan in our sample                                                                                        |
