@@ -202,3 +202,14 @@ The Table is outlined as follows:
 | AMT_REQ_CREDIT_BUREAU_MON    | Number of enquiries to Credit Bureau about the client one month before application (excluding one week before application) |
 | AMT_REQ_CREDIT_BUREAU_QRT    | Number of enquiries to Credit Bureau about the client 3 month before application (excluding one month before application) |
 | AMT_REQ_CREDIT_BUREAU_YEAR   | Number of enquiries to Credit Bureau about the client one day year (excluding last 3 months before application)   |
+
+# 📋 Structure of the Project
+
+This project will be structured into three segments to ensure a systematic and accurate analysis.
+
+###  🏃‍♂️ Sprint 1: This phase will involve a preliminary study of the dataset, basic data cleaning, exploratory data analysis (EDA), and some initial feature engineering.
+
+###  🚀 Sprint 2: In this stage, we will conduct advanced exploratory data analysis, comprehensive feature engineering, preprocessing, and build baseline models to establish a foundation for advanced modeling. Additionally, we will develop a model evaluation framework that accurately reflects the practical use case of our models.
+
+###  🏁 Sprint 3: Building upon the baseline models and evaluation framework developed in Sprint 2, we will delve into advanced model building, optimization, evaluation, and interpretation.
+
