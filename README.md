@@ -231,3 +231,13 @@ Building upon the baseline models and evaluation framework developed in Sprint 2
 8. How accurately can machine learning models predict the likelihood of default based on the available features in the dataset? <br>
 9. Which machine learning algorithms perform best for predicting home loan defaults, and what features contribute most to their predictive power? <br>
 10. Are there any potential biases in the dataset that could affect the performance and fairness of the predictive models? <br>
+What demographic factors influence the likelihood of defaulting on a home loan?<br>
+How does the applicant's financial situation, such as income and credit history, correlate with the risk of default?<br>
+Are there specific loan features, such as loan amount or loan type, that are associated with higher default rates?<br>
+Can patterns in the applicant's employment history predict the likelihood of defaulting on a home loan?<br>
+Do certain types of housing situations or family statuses affect the probability of default?<br>
+Are there any external factors, such as regional population density or city rating, that contribute to the risk of default?<br>
+How do the applicant's social surroundings, as indicated by social circle observations, impact the likelihood of defaulting on a home loan?<br>
+What role do documents provided by the client play in predicting loan defaults?<br>
+Can data from credit bureaus, such as the number of credit inquiries or credit bureau scores, help forecast home loan defaults?<br>
+Are there any correlations between the condition or characteristics of the property and the risk of default?<br>
