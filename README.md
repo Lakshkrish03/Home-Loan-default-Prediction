@@ -219,3 +219,15 @@ In this stage, we will conduct advanced exploratory data analysis, comprehensive
 
 Building upon the baseline models and evaluation framework developed in Sprint 2, we will delve into advanced model building, optimization, evaluation, and interpretation.
 
+# Key Questions that will be answered throughout the Project
+
+1. What is the distribution of home loan defaulters across different demographic groups (e.g., gender, age, number of children)? <br>
+2. Are there any observable patterns or correlations between the borrower's income level and the likelihood of defaulting on their home loan? <br>
+3. Do individuals who own cars or real estate properties have a lower probability of defaulting compared to those who don't? <br>
+4. How does the loan amount (AMT_CREDIT) and the associated annuity (AMT_ANNUITY) affect the likelihood of default? <br>
+5. Is there a relationship between the value of the goods purchased with the loan (AMT_GOODS_PRICE) and the probability of default? <br>
+6. What impact do external factors, such as the number of inquiries to the credit bureau (AMT_REQ_CREDIT_BUREAU_YEAR), have on default rates? <br>
+7. Can we identify any significant predictors of default risk through exploratory data analysis (EDA) and feature engineering? <br>
+8. How accurately can machine learning models predict the likelihood of default based on the available features in the dataset? <br>
+9. Which machine learning algorithms perform best for predicting home loan defaults, and what features contribute most to their predictive power? <br>
+10. Are there any potential biases in the dataset that could affect the performance and fairness of the predictive models? <br>
