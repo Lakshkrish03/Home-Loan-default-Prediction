@@ -1,4 +1,4 @@
-# 💰 Predicting Home Loan Default - Using Machine Learning 
+# 💰 Home Loan Default Prediction - Using Machine Learning 
 
 <center>
 
