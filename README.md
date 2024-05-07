@@ -62,6 +62,8 @@ The key innovation behind this concept is the use of sophisticated algorithms, s
 
 Home loan default prediction models have a multifaceted impact, spanning the financial industry, the broader economy, and society. They enhance risk management practices for lenders, reduce financial losses due to loan defaults, and optimize loan portfolios. By promoting fair and transparent lending practices, they increase access to credit, promote homeownership and wealth accumulation, and contribute to the stability and sustainability of the housing market. Additionally, they foster confidence and trust in the lending industry, promote consumer protection and financial inclusion, and reduce systemic risks, contributing to economic stability and growth.
 
+With the integration of machine learning models, there's a huge possibility in determining whether an individual is highly likely to default on their payments. In my view, effective utilization of these models could potentially reduce overall defaults by up to 5%.
+
 # 📊 Data 
 
 The main challenge in working with home loan default prediction datasets lies in ensuring data quality, completeness, and consistency. Data preprocessing techniques, such as cleaning, imputation, and Exploratory Data Analysis, are essential for addressing missing values, outliers, and inconsistencies in the data. Moreover, handling imbalanced datasets, where the number of defaulted loans may be significantly lower than the number of non-defaulted loans, requires careful consideration to prevent bias and ensure model fairness.
