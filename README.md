@@ -64,8 +64,8 @@ The key innovation behind this concept is the use of sophisticated algorithms to
 * 📊🔍 logistic regression,
 * 🌳🔍 decision trees,
 * 🌳🌲 random forests,
-* 🚀 gradient boosting, and
-* 🧠 neural networks.
+* 🚀   gradient boosting, and
+* 🧠   neural networks.
 
   
 # 🌍 Impact 
