@@ -61,25 +61,28 @@ The concept of home loan default prediction involves using advanced machine lear
 
 The key innovation behind this concept is the use of sophisticated algorithms to process large and complex datasets and generate predictions, such as:
 
-* 📊🔍 logistic regression,
-* 🌳🔍 decision trees,
-* 🌳🌲 random forests,
-* 🚀   gradient boosting, and
-* 🧠   neural networks.
+* Logistic Regression,
+* Decision Trees,
+* Random Forest
+* XGBoost
+* Gradient boosting, 
+* Neural networks, and
+* Support Vector Machine
 
+Some of these models may not work on all Datasets, but I am planning to explore all the above models if possible. 
   
 # 🌍 Impact 
 
 Home loan default prediction models have a multifaceted impact, spanning the financial industry, the broader economy, and society. They enhance risk management practices for lenders, reduce financial losses due to loan defaults, and optimize loan portfolios. By promoting fair and transparent lending practices, they increase access to credit, promote homeownership and wealth accumulation, and contribute to the stability and sustainability of the housing market. Additionally, they foster confidence and trust in the lending industry, promote consumer protection and financial inclusion, and reduce systemic risks, contributing to economic stability and growth.
 
-📉 Some Real Facts in actual Mortgage default figures around the worrld are as follows:
+📉 Some Real Facts in actual Mortgage default figures around the world are as follows (Referenced from https://www.statista.com) :
 
 * As of December 2022, Australian owner-occupiers' debt outstanding amounted to over 1.4 trillion Australian dollars (around 920 trillian US Dollars).
 * In the fiscal year 2021, the value of outstanding housing loans granted to individuals by private financial institutions in Japan amounted to around 191.57 trillion Japanese yen (around 1232 trillian Us Dollars).
 * In the second quarter of the year, the UK had close to 1.9 billion euros (around 2 trillian US Dollars) worth of mortgages outstanding. Other countries with large mortgage markets included the Netherlands, Spain, Sweden, and Italy - all exceeding 400 billion euros (around 429 US Dollars).
 * Despite a short period of decrease after the burst of the U.S. housing bubble and the global financial crisis, the total amount of mortgage debt in the United States has been on the rise in recent years. In 2023, the mortgage debt amounted to 20.2 trillion U.S. dollars, up from 19.3 trillion U.S. dollars in 2023.
 
-With the integration of machine learning models, there's a huge possibility in determining whether an individual is highly likely to default on their payments. In my view, effective utilization of these models could potentially reduce overall defaults by up to 5% to 10% approximately saving at the least 260 trillian US Dollars worldwide.
+With the integration of machine learning models, there's a huge possibility in determining whether an individual is highly likely to default on their payments before approvong their loan applications. In my view, effective utilization of these models could potentially reduce overall defaults by up to 5% to 10% approximately saving at the least 260 trillian US Dollars worldwide.
 
 # 📊 Data 
 
@@ -220,7 +223,7 @@ The Table is outlined as follows:
 | AMT_REQ_CREDIT_BUREAU_QRT    | Number of enquiries to Credit Bureau about the client 3 month before application (excluding one month before application) |
 | AMT_REQ_CREDIT_BUREAU_YEAR   | Number of enquiries to Credit Bureau about the client one day year (excluding last 3 months before application)   |
 
-# 📋 Structure of the Project
+# 📋 Project Workflow
 
 This project will be structured into three segments to ensure a systematic and accurate analysis.
 
@@ -250,3 +253,5 @@ Building upon the baseline models and evaluation framework developed in Sprint 2
 10.Can patterns in the applicant's employment history predict the likelihood of defaulting on a home loan?<br>
 11.Do certain types of housing situations or family statuses affect the probability of default?<br>
 12.Are there any correlations between the condition or characteristics of the property and the risk of default?<br>
+
+
