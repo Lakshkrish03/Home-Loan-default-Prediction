@@ -72,7 +72,14 @@ The key innovation behind this concept is the use of sophisticated algorithms to
 
 Home loan default prediction models have a multifaceted impact, spanning the financial industry, the broader economy, and society. They enhance risk management practices for lenders, reduce financial losses due to loan defaults, and optimize loan portfolios. By promoting fair and transparent lending practices, they increase access to credit, promote homeownership and wealth accumulation, and contribute to the stability and sustainability of the housing market. Additionally, they foster confidence and trust in the lending industry, promote consumer protection and financial inclusion, and reduce systemic risks, contributing to economic stability and growth.
 
-With the integration of machine learning models, there's a huge possibility in determining whether an individual is highly likely to default on their payments. In my view, effective utilization of these models could potentially reduce overall defaults by up to 5% to 10%.
+📉 Some Real Facts in actual Mortgage default figures around the worrld are as follows:
+
+* As of December 2022, Australian owner-occupiers' debt outstanding amounted to over 1.4 trillion Australian dollars (around 920 trillian US Dollars).
+* In the fiscal year 2021, the value of outstanding housing loans granted to individuals by private financial institutions in Japan amounted to around 191.57 trillion Japanese yen (around 1232 trillian Us Dollars).
+* In the second quarter of the year, the UK had close to 1.9 billion euros (around 2 trillian US Dollars) worth of mortgages outstanding. Other countries with large mortgage markets included the Netherlands, Spain, Sweden, and Italy - all exceeding 400 billion euros (around 429 US Dollars).
+* Despite a short period of decrease after the burst of the U.S. housing bubble and the global financial crisis, the total amount of mortgage debt in the United States has been on the rise in recent years. In 2023, the mortgage debt amounted to 20.2 trillion U.S. dollars, up from 19.3 trillion U.S. dollars in 2023.
+
+With the integration of machine learning models, there's a huge possibility in determining whether an individual is highly likely to default on their payments. In my view, effective utilization of these models could potentially reduce overall defaults by up to 5% to 10% approximately saving at the least 260 trillian US Dollars worldwide.
 
 # 📊 Data 
 
@@ -229,25 +236,17 @@ In this stage, we will conduct advanced exploratory data analysis, comprehensive
 
 Building upon the baseline models and evaluation framework developed in Sprint 2, we will delve into advanced model building, optimization, evaluation, and interpretation.
 
-# 🤔 Key Questions to be Answered throughout the Project
+# 🤔 Key Questions to be Answered throughout the Project (which are subjected to change as the project advances)
 
 1. What is the distribution of home loan defaulters across different demographic groups (e.g., gender, age, number of children)? <br>
 2. Are there any observable patterns or correlations between the borrower's income level and the likelihood of defaulting on their home loan? <br>
 3. Do individuals who own cars or real estate properties have a lower probability of defaulting compared to those who don't? <br>
 4. How does the loan amount (AMT_CREDIT) and the associated annuity (AMT_ANNUITY) affect the likelihood of default? <br>
 5. Is there a relationship between the value of the goods purchased with the loan (AMT_GOODS_PRICE) and the probability of default? <br>
-6. What impact do external factors, such as the number of inquiries to the credit bureau (AMT_REQ_CREDIT_BUREAU_YEAR), have on default rates? <br>
-7. Can we identify any significant predictors of default risk through exploratory data analysis (EDA) and feature engineering? <br>
-8. How accurately can machine learning models predict the likelihood of default based on the available features in the dataset? <br>
-9. Which machine learning algorithms perform best for predicting home loan defaults, and what features contribute most to their predictive power? <br>
-10. Are there any potential biases in the dataset that could affect the performance and fairness of the predictive models? <br>
-What demographic factors influence the likelihood of defaulting on a home loan?<br>
-How does the applicant's financial situation, such as income and credit history, correlate with the risk of default?<br>
-Are there specific loan features, such as loan amount or loan type, that are associated with higher default rates?<br>
-Can patterns in the applicant's employment history predict the likelihood of defaulting on a home loan?<br>
-Do certain types of housing situations or family statuses affect the probability of default?<br>
-Are there any external factors, such as regional population density or city rating, that contribute to the risk of default?<br>
-How do the applicant's social surroundings, as indicated by social circle observations, impact the likelihood of defaulting on a home loan?<br>
-What role do documents provided by the client play in predicting loan defaults?<br>
-Can data from credit bureaus, such as the number of credit inquiries or credit bureau scores, help forecast home loan defaults?<br>
-Are there any correlations between the condition or characteristics of the property and the risk of default?<br>
+6. Can we identify any significant predictors of default risk through exploratory data analysis (EDA) and feature engineering? <br>
+7. How accurately can machine learning models predict the likelihood of default based on the available features in the dataset? <br>
+8. Which machine learning algorithms perform best for predicting home loan defaults, and what features contribute most to their predictive power? <br>
+9. Are there any potential biases in the dataset that could affect the performance and fairness of the predictive models? <br>
+10.Can patterns in the applicant's employment history predict the likelihood of defaulting on a home loan?<br>
+11.Do certain types of housing situations or family statuses affect the probability of default?<br>
+12.Are there any correlations between the condition or characteristics of the property and the risk of default?<br>
