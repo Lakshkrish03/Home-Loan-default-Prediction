@@ -239,7 +239,7 @@ In this stage, we will conduct advanced exploratory data analysis, comprehensive
 
 Building upon the baseline models and evaluation framework developed in Sprint 2, we will delve into advanced model building, optimization, evaluation, and interpretation.
 
-# 🤔 Key Questions to be Answered throughout the Project (which are subjected to change as the project advances)
+# 🤔 Key Questions to be Answered (which are subject to change as the project advances)
 
 1. What is the distribution of home loan defaulters across different demographic groups (e.g., gender, age, number of children)? <br>
 2. Are there any observable patterns or correlations between the borrower's income level and the likelihood of defaulting on their home loan? <br>
