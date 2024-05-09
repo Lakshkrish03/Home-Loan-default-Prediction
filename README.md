@@ -241,17 +241,17 @@ Building upon the baseline models and evaluation framework developed in Sprint 2
 
 # 🤔 Key Questions to be Answered (which are subject to change as the project advances)
 
-1. What is the distribution of home loan defaulters across different demographic groups (e.g., gender, age, number of children)? <br>
-2. Are there any observable patterns or correlations between the borrower's income level and the likelihood of defaulting on their home loan? <br>
-3. Do individuals who own cars or real estate properties have a lower probability of defaulting compared to those who don't? <br>
-4. How does the loan amount (AMT_CREDIT) and the associated annuity (AMT_ANNUITY) affect the likelihood of default? <br>
-5. Is there a relationship between the value of the goods purchased with the loan (AMT_GOODS_PRICE) and the probability of default? <br>
-6. Can we identify any significant predictors of default risk through exploratory data analysis (EDA) and feature engineering? <br>
-7. How accurately can machine learning models predict the likelihood of default based on the available features in the dataset? <br>
-8. Which machine learning algorithms perform best for predicting home loan defaults, and what features contribute most to their predictive power? <br>
-9. Are there any potential biases in the dataset that could affect the performance and fairness of the predictive models? <br>
-10.Can patterns in the applicant's employment history predict the likelihood of defaulting on a home loan?<br>
-11.Do certain types of housing situations or family statuses affect the probability of default?<br>
-12.Are there any correlations between the condition or characteristics of the property and the risk of default?<br>
+* What is the distribution of home loan defaulters across different demographic groups (e.g., gender, age, number of children)? <br>
+* Are there any observable patterns or correlations between the borrower's income level and the likelihood of defaulting on their home loan? <br>
+* Do individuals who own cars or real estate properties have a lower probability of defaulting compared to those who don't? <br>
+* How does the loan amount (AMT_CREDIT) and the associated annuity (AMT_ANNUITY) affect the likelihood of default? <br>
+* Is there a relationship between the value of the goods purchased with the loan (AMT_GOODS_PRICE) and the probability of default? <br>
+* Can we identify any significant predictors of default risk through exploratory data analysis (EDA) and feature engineering? <br>
+* How accurately can machine learning models predict the likelihood of default based on the available features in the dataset? <br>
+* Which machine learning algorithms perform best for predicting home loan defaults, and what features contribute most to their predictive power? <br>
+* Are there any potential biases in the dataset that could affect the performance and fairness of the predictive models? <br>
+* Can patterns in the applicant's employment history predict the likelihood of defaulting on a home loan?<br>
+* Do certain types of housing situations or family statuses affect the probability of default?<br>
+* Are there any correlations between the condition or characteristics of the property and the risk of default?<br>
 
 
