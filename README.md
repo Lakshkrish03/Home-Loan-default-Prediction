@@ -110,7 +110,7 @@ The Table is outlined as follows:
 | AMT_INCOME_TOTAL              | Income of the client                                                                                            |
 | AMT_CREDIT                    | Credit amount of the loan                                                                                       |
 | AMT_ANNUITY                   | Loan annuity                                                                                                    |
-| AMT_GOODS_PRICE               | For consumer loans it is the price of the goods for which the loan is given ((In our case this will be the home on which the loan was issued)                                     |
+| AMT_GOODS_PRICE               | For consumer loans it is the price of the goods for which the loan is given (In our case this will be the home on which the loan was issued)                                     |
 | NAME_TYPE_SUITE               | Who was accompanying client when he was applying for the loan                                                   |
 | NAME_INCOME_TYPE              | Clients income type (businessman, working, maternity leave, ...)                                                 |
 | NAME_EDUCATION_TYPE           | Level of highest education the client achieved                                                                  |
