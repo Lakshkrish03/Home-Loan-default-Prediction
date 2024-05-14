@@ -221,7 +221,7 @@ The Table is outlined as follows:
 | AMT_REQ_CREDIT_BUREAU_WEEK   | Number of enquiries to Credit Bureau about the client one week before application (excluding one day before application) |
 | AMT_REQ_CREDIT_BUREAU_MON    | Number of enquiries to Credit Bureau about the client one month before application (excluding one week before application) |
 | AMT_REQ_CREDIT_BUREAU_QRT    | Number of enquiries to Credit Bureau about the client 3 month before application (excluding one month before application) |
-| AMT_REQ_CREDIT_BUREAU_YEAR   | Number of enquiries to Credit Bureau about the client one day year (excluding last 3 months before application)   |
+| AMT_REQ_CREDIT_BUREAU_YEAR   | Number of enquiries to Credit Bureau about the client one year before application(excluding last 3 months before application)   |
 
 # 📋 Project Workflow
 
