@@ -123,8 +123,8 @@ The Table is outlined as follows:
 | DAYS_ID_PUBLISH               | How many days before the application did client change the identity document with which he applied for the loan  |
 | OWN_CAR_AGE                   | Age of client's car                                                                                             |
 | FLAG_MOBIL                    | Did client provide mobile phone (1=YES, 0=NO)                                                                  |
-| FLAG_EMP_PHONE                | Did client provide work phone (1=YES, 0=NO)                                                                    |
-| FLAG_WORK_PHONE               | Did client provide home phone (1=YES, 0=NO)                                                                    |
+| FLAG_EMP_PHONE                | Did client provide work phone (1=YES, 0=NO)  (This column doesnt exist anymore)                                                                  |
+| FLAG_WORK_PHONE               | Did client provide work phone (1=YES, 0=NO)                                                                    |
 | FLAG_CONT_MOBILE              | Was mobile phone reachable (1=YES, 0=NO)                                                                       |
 | FLAG_PHONE                    | Did client provide home phone (1=YES, 0=NO)                                                                    |
 | FLAG_EMAIL                    | Did client provide email (1=YES, 0=NO)                                                                         |
