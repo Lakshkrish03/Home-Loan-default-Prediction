@@ -65,8 +65,7 @@ The key innovation behind this concept is the use of sophisticated algorithms to
 * Decision Trees,
 * Random Forest
 * XGBoost
-* Gradient boosting, 
-* Neural networks, and
+* Gradient boosting, and
 * Support Vector Machine
 
 Some of these models may not work on all Datasets, but I am planning to explore all the above models if possible. 
