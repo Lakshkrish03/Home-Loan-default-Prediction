@@ -53,12 +53,13 @@ How Might We Statement:
 How might we use machine learning to predict home loan defaults such that we can reduce financial losses and improve loan management?
 
 Proposed Solution:
-Develop machine learning models to predict home loan defaults. Use advanced techniques to improve model accuracy and reliability.
+* Develop machine learning models to predict home loan defaults.
+* Use advanced techniques to improve model accuracy and reliability.
 
 Potential Impact:
-Reduced financial losses for lenders.
-Better loan management and decision-making processes.
-Improved financial stability and customer satisfaction.
+* Reduced financial losses for lenders.
+* Better loan management and decision-making processes.
+* Improved financial stability and customer satisfaction.
 
 # 👥 Users 
 
