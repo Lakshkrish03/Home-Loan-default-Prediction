@@ -44,7 +44,21 @@ Challenges in home loan default prediction include:
 * handling imbalanced datasets, and
 * ensuring model interpretability and transparency in lending decisions.
 
-By addressing these challenges, this project aims to developpredictive models that can assist lenders in making more informed and prudent lending decisions, ultimately reducing the incidence of loan defaults and improving overall financial stability in the housing finance market.
+By addressing these challenges, this project aims to develop predictive models that can assist lenders in making more informed and prudent lending decisions, ultimately reducing the incidence of loan defaults and improving overall financial stability in the housing finance market.
+
+# ⚠️ Problem Statement
+
+How Might We Statement:
+
+How might we use machine learning to predict home loan defaults such that we can reduce financial losses and improve loan management?
+
+Proposed Solution:
+Develop machine learning models to predict home loan defaults. Use advanced techniques to improve model accuracy and reliability.
+
+Potential Impact:
+Reduced financial losses for lenders.
+Better loan management and decision-making processes.
+Improved financial stability and customer satisfaction.
 
 # 👥 Users 
 
@@ -67,8 +81,7 @@ The key innovation behind this concept is the use of sophisticated algorithms to
 * XGBoost
 * Gradient boosting, and
 * Support Vector Machine
-
-Some of these models may not work on all Datasets, but I am planning to explore all the above models if possible. 
+ 
   
 # 🌍 Impact 
 
@@ -224,26 +237,40 @@ The Table is outlined as follows:
 
 # 📋 Project Workflow
 
-This project will be structured into three segments to ensure a systematic and accurate analysis.
+This project was structured into three segments to ensure a systematic and accurate analysis.
 
 ###  🏃‍♂️ Sprint 1: 
 
-This phase will involve a preliminary study of the dataset, basic data cleaning, exploratory data analysis (EDA), and some initial feature engineering.
+This phase consisted of, 
+* Data Cleaning : We addressed issues related to missing values, categorical variables, and feature scaling.
+* Exploratory Data Analysis 1 :  We identified different features and their relationships with the target variable.
 
 ###  🚀 Sprint 2: 
 
-In this stage, we will conduct advanced exploratory data analysis, comprehensive feature engineering, preprocessing, and build baseline models to establish a foundation for advanced modeling. Additionally, we will develop a model evaluation framework that accurately reflects the practical use case of our models.
+This Phase consisted of,
+* Exploratory Data Analysis 2 : Insights gained from feature distributions and correlations.
+* Feature Engineering : Converted Object type features to Numerical type by one-hot encoding and addressed multicollinearity issues.
+* Baseline Modeling : Logistic Regression, SVM, Decision Trees, Random Forests, XGBoost, and Gradient Boosting were evaluated.
+  Performance metrics such as accuracy, precision, recall, and F1 scores were analyzed for both models with and without SMOTE.
 
 ###  🏁 Sprint 3: 
 
-Building upon the baseline models and evaluation framework developed in Sprint 2, we will delve into advanced model building, optimization, evaluation, and interpretation.
-
-# 🤔 Key Questions to be Answered (which are subject to change as the project advances)
+Building upon the baseline models and evaluation framework developed in Sprint 2, This phase will consist of,
+* Hyperparameter Tuning:
+   1. Grid Search: We can Perform an exhaustive search over a specified parameter grid to find the optimal parameters for each model or/and
+   2. Random Search: May also Use random search for a less exhaustive but faster approach to parameter tuning.
+* Cross-Validation:
+   1. Stratified K-Fold: Can Use stratified k-fold cross-validation to ensure each fold maintains the class distribution, providing a more reliable estimate of model performance.
+* Feature Selection:
+   1. Feature Importance: Can Use feature importance scores from models like Random Forests or XGBoost to identify and retain the most impactful features
+* Metrics:
+   1. AUC-ROC Curve: Evaluate the Receiver Operating Characteristic (ROC) curve and Area Under the Curve (AUC) to understand the trade-off between true positive rate and false positive rate.
+      
+# 🤔 Key Questions to be Answered in Sprint 3 (which are subject to change as the project advances)
 
 * What is the distribution of home loan defaulters across different demographic groups (e.g., gender, age, number of children)? <br>
 * Are there any observable patterns or correlations between the borrower's income level and the likelihood of defaulting on their home loan? <br>
 * Do individuals who own cars or real estate properties have a lower probability of defaulting compared to those who don't? <br>
-* How does the loan amount (AMT_CREDIT) and the associated annuity (AMT_ANNUITY) affect the likelihood of default? <br>
 * Is there a relationship between the value of the goods purchased with the loan (AMT_GOODS_PRICE) and the probability of default? <br>
 * Can we identify any significant predictors of default risk through exploratory data analysis (EDA) and feature engineering? <br>
 * How accurately can machine learning models predict the likelihood of default based on the available features in the dataset? <br>
@@ -251,6 +278,6 @@ Building upon the baseline models and evaluation framework developed in Sprint 2
 * Are there any potential biases in the dataset that could affect the performance and fairness of the predictive models? <br>
 * Can patterns in the applicant's employment history predict the likelihood of defaulting on a home loan?<br>
 * Do certain types of housing situations or family statuses affect the probability of default?<br>
-* Are there any correlations between the condition or characteristics of the property and the risk of default?<br>
+
 
 
