@@ -261,7 +261,7 @@ This Phase consisted of,
 Building upon the baseline models and evaluation framework developed in Sprint 2, This phase consisted of,
 * Detailed feature engineering:
   1. Dealt with a huge number of multicolinearity issues, by deleting features that are either highly correlated (+.7 or -.7)
-  2. Or by using the Cariance Inflation Factor (VIF SCore) and deleted those features that had a score above 5 and inf
+  2. Or by using the Variance Inflation Factor (VIF SCore) and deleted those features that had a score above 5 and inf
 * Hyperparameter Tuning:
   1. Grid Search: I Performed an exhaustive search over a specified parameter grid to find the optimal parameters for each model using ensemble method - Balamced Bagging 
      Classifier. This method was the only method that gave me a good recall score along with accuracy scores. It was a good balamce.
