@@ -82,6 +82,8 @@ The key innovation behind this concept is the use of sophisticated algorithms to
 * XGBoost
 * Gradient boosting, and
 * Support Vector Machine
+
+After tuning my all my models, Gradient Boosting model seems to provide a more balanced score of Accuracy, Recall, Precision and F1. 
  
   
 # 🌍 Impact 
@@ -256,30 +258,22 @@ This Phase consisted of,
 
 ###  🏁 Sprint 3: 
 
-Building upon the baseline models and evaluation framework developed in Sprint 2, This phase will consist of,
+Building upon the baseline models and evaluation framework developed in Sprint 2, This phase consisted of,
+* Detailed feature engineering:
+  1. Dealt with a huge number of multicolinearity issues, by deleting features that are either highly correlated (+.7 or -.7)
+  2. Or by using the Cariance Inflation Factor (VIF SCore) and deleted those features that had a score above 5 and inf
 * Hyperparameter Tuning:
-   1. Grid Search: We can Perform an exhaustive search over a specified parameter grid to find the optimal parameters for each model or/and
-   2. Random Search: May also Use random search for a less exhaustive but faster approach to parameter tuning.
+  1. Grid Search: I Performed an exhaustive search over a specified parameter grid to find the optimal parameters for each model using ensemble method - Balamced Bagging 
+     Classifier. This method was the only method that gave me a good recall score along with accuracy scores. It was a good balamce.
+
+  The following I tried and didnt work:
+  1. Feature Importance: I tried running feature importance among all the models and also tried combining features and dropping a few less important features. Due to which the accuracy scores did improve but the recall scores were terribly low. Which meant although the models were better at predicting the majority class correctly , but the significant drop in Recall indicated that all the models were failing to correctly identify a larger proportion of the actual positive cases.
+  2. Simply Hypertuning: This was also a failure as all the models gave me good accuracy scores but terribly low Recall scores. And i was aiming at scoring a higher recall score atleast 70% (which i couldnt achieve)
+  3. SVM didnt fit: Although, SVM gave me a good score of around 78% recall score in the SMOTE dataset, I was unable to fit it further by tuning the model due to the fact the SMOTE dataset was a huge data.
+   
 * Cross-Validation:
-   1. Stratified K-Fold: Can Use stratified k-fold cross-validation to ensure each fold maintains the class distribution, providing a more reliable estimate of model performance.
-* Feature Selection:
-   1. Feature Importance: Can Use feature importance scores from models like Random Forests or XGBoost to identify and retain the most impactful features
-* Metrics:
-   1. AUC-ROC Curve: Evaluate the Receiver Operating Characteristic (ROC) curve and Area Under the Curve (AUC) to understand the trade-off between true positive rate and false positive rate.
+   1. I used CV-5 along all the tuned models, to give me the desired result.
       
-# 🤔 Key Questions to be Answered in Sprint 3 (which are subject to change as the project advances)
+* Metrics:
+   1. AUC-ROC Curve: Evaluated the Receiver Operating Characteristic (ROC) curve and Area Under the Curve (AUC) to understand the trade-off between true positive rate and false positive rate. And realised all the models I tuned using ensemble methods had a very closer score to each other. Therefore out of the 5 models i tuned, Gradient Boosting seemed better and next best was Logistic Regression.
 
-* What is the distribution of home loan defaulters across different demographic groups (e.g., gender, age, number of children)? <br>
-* Are there any observable patterns or correlations between the borrower's income level and the likelihood of defaulting on their home loan? <br>
-* Do individuals who own cars or real estate properties have a lower probability of defaulting compared to those who don't? <br>
-* Is there a relationship between the value of the goods purchased with the loan (AMT_GOODS_PRICE) and the probability of default? <br>
-* Can we identify any significant predictors of default risk through exploratory data analysis (EDA) and feature engineering? <br>
-* How accurately can machine learning models predict the likelihood of default based on the available features in the dataset? <br>
-* Which machine learning algorithms perform best for predicting home loan defaults, and what features contribute most to their predictive power? <br>
-* Are there any potential biases in the dataset that could affect the performance and fairness of the predictive models? <br>
-* Can patterns in the applicant's employment history predict the likelihood of defaulting on a home loan?<br>
-* Do certain types of housing situations or family statuses affect the probability of default?<br>
-
-
-
->>>>>>> 078d5a0331b7a56a96a15f50ec567c262cacd97a
