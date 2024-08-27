@@ -264,7 +264,9 @@ Building upon the baseline models and evaluation framework developed in Sprint 2
   2. Or by using the Variance Inflation Factor (VIF SCore) and deleted those features that had a score above 5 and inf
 * Hyperparameter Tuning:
   1. Grid Search: I Performed an exhaustive search over a specified parameter grid to find the optimal parameters for each model using ensemble method - Balamced Bagging 
-     Classifier. This method was the only method that gave me a good recall score along with accuracy scores. It was a good balamce.
+     Classifier. This method was the only method that gave me a good recall score along with accuracy scores. It was a good balamce. Therefore I chose Gradient Boosting Classifier.
+
+  
 
   The following I tried and didnt work:
   1. Feature Importance: I tried running feature importance among all the models and also tried combining features and dropping a few less important features. Due to which the accuracy scores did improve but the recall scores were terribly low. Which meant although the models were better at predicting the majority class correctly , but the significant drop in Recall indicated that all the models were failing to correctly identify a larger proportion of the actual positive cases.
@@ -276,4 +278,6 @@ Building upon the baseline models and evaluation framework developed in Sprint 2
       
 * Metrics:
    1. AUC-ROC Curve: Evaluated the Receiver Operating Characteristic (ROC) curve and Area Under the Curve (AUC) to understand the trade-off between true positive rate and false positive rate. And realised all the models I tuned using ensemble methods had a very closer score to each other. Therefore out of the 5 models i tuned, Gradient Boosting seemed better and next best was Logistic Regression.
+
+![image](https://github.com/user-attachments/assets/38d4bd55-c5b1-489e-86e1-cbbbed344c1e)
 
