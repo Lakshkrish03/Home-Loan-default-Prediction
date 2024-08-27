@@ -266,6 +266,7 @@ Building upon the baseline models and evaluation framework developed in Sprint 2
   1. Grid Search: I Performed an exhaustive search over a specified parameter grid to find the optimal parameters for each model using ensemble method - Balamced Bagging 
      Classifier. This method was the only method that gave me a good recall score along with accuracy scores. It was a good balamce. Therefore I chose Gradient Boosting Classifier.
 
+![image](https://github.com/user-attachments/assets/395b85cb-d180-4819-beea-5f54fa73411e)
   
 
   The following I tried and didnt work:
